@@ -45,14 +45,17 @@ This script can be used for any election, based on the data received in the csv.
 If more information is provided for each vote, i.e. each vote has more columns, all the new information can be extracted into list containing the unique information. For example, if you want a list of all the races which the voters indentified whith, you can make changes in lines 18 and 50-60.
 
 In line 18, change candidates_names to an appropriate name, i.e. races_identification
-PICTURE
+
+![](https://github.com/gabrielavalos/election-analysis/blob/main/Resources/Pictures%20for%20README/line%2018.png)
+
 In lines 50, for candidate_name = row[2]:
 Replace candidate_name to an appropriate name for each item on the list, such as race_id. Replace '2' with the numbber of the column containing the data you are creating a list for. In  python, the first data in a list is in the position [0], so if the new data is in the 4th column, replace [2] with [3].
-PICTURE
+
+![](https://github.com/gabrielavalos/election-analysis/blob/main/Resources/Pictures%20for%20README/line%2050%20to%2060.png)
+
 In line 57:
 Replace candidate_name to race_id and candidate_options to races_identification
 In line 60:
 Replace candidate_options to race_indentification and candidates_name to race_id. Keep all punctuation.
-Making these changes will return a list of all the races that casted a vote.
-
-### Modification 1
+Making these changes will return a list of all the races that casted a vote. Your final script should look like this:
+![](https://github.com/gabrielavalos/election-analysis/blob/main/Resources/Pictures%20for%20README/Script%20with%20changes%20for%20race%20list.png)
