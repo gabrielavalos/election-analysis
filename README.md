@@ -1,5 +1,5 @@
 # election-analysis
-python
+An audit of a Colorado congressional election using Python.
 
 ## Project Overview
 A Colorado Board of Elections has given you the following tasks to complere the election audit of a recent local congressional election.
